@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!DOCTYPE xml>
+<project name="Folia-Plugins" default="Build">
+    <target name="Build">
+        <jar jarfile="/mnt/HDD/Programming/Paper/plugins/${ant.project.name}.jar" basedir="./target/classes/"
+             includes="**/*">
+            <fileset dir="src/main/resources" includes="**/*"/>
+<!--            <fileset dir="../Foundation/target/classes"/>-->
+<!--            <zipgroupfileset dir="${user.home}/.m2/repository/com/github/kangarko/Foundation/${foundation.version}/" includes="**/*${foundation.version}.jar" />-->
+        </jar>
+    </target>
+</project>

@@ -1,0 +1,8 @@
+name: FoliaTestPlugin
+main: com.jessenerio.FoliaTestPlugin
+version: 1.0
+api-version: 1.13
+commands:
+  testfolia:
+    description: Test command for the Folia plugin.
+folia-supported: true
